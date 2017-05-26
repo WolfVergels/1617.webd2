@@ -1,0 +1,41 @@
+nav ul {
+    list-style:none;
+    padding:0;
+    margin-top:35px;
+}
+
+nav ul a {
+    text-decoration:none;
+}
+
+
+#main-navigation > ul > li {
+    display: inline-block;
+    margin-left: 110px;
+    text-decoration: none;
+}
+#main-navigation > ul >  li > a {
+    margin-top: 30px;
+    display: block;
+    padding: 5px 10px;
+    font-family: Montserrat;
+    font-weight: lighter;
+    font-size: 16px;
+    color: hsl(245, 21%, 57%);
+    
+
+}
+#main-navigation ul > li > :last-of-type a {
+    border: none;
+}
+#main-navigation ul li a:hover {
+color: hsl(260, 14%, 30%)
+
+}
+#main-navigation ul li a:active {
+color: hsl(260, 13%, 82%)
+
+}
+
+
+
